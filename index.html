@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch | Kazy Tv</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="timer">
+            <span class="minutes">00 </span> :
+            <span class="seconds">00 </span> :
+            <span class="milliseconds">00 </span>
+        </h1>
+        <ol class=" lapBox"></ol>
+        <div class="bottomPart">
+            <div class="btns">
+                <button class="reset" onclick="reset()">Reset</button>
+                <button class="start" onclick="start()">Start</button>
+                <button class="stop" onclick="stop()">Stop</button>
+                <button class="lap" onclick="lap()">Lap</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
